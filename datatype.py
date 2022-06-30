@@ -10,3 +10,4 @@ if a ==None:
 else:
     print("Not none")
 
+print(type(10<20))
