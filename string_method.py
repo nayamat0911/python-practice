@@ -44,5 +44,31 @@ print(c.rstrip("3ij"))
 print(a.split())
 print(a.split(), type(a))
 
+# splite line
+e = "Bangladesh Is A My \n Beautifull My Country"
 
+print(e)
+print(e.partition("my"))
+print(e.rpartition("my"))
 
+print(e.swapcase())
+print(e.endswith("y"))
+print(e.startswith("my"))
+# zfile
+f = "bangladesh"
+print(f.zfill(20))
+print(f.rjust(20))
+# replace
+print(e.replace("bangladesh","tom and jary"))
+
+print(e.islower())
+print(e.istitle())
+k ="999"
+print(k.isnumeric())
+
+print(k.isdigit())
+
+print("decimal")
+print(k.isdecimal())
+l = "            "
+print(l.isspace())
